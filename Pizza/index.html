@@ -1,0 +1,161 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizza La Vuelta</title>
+	<link rel="stylesheet" href="css/mainStyles/content.css">
+	<link rel="stylesheet" href="css/mainStyles/header.css">
+	<link rel="stylesheet" href="css/mainStyles/footer.css">
+	<link rel="icon" href="img/header/logotype.png">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header_page">
+			<div class="left_part-header">
+				<button data-menu class="btn_menu">
+					<img src="img/header/menu.png" alt="menu">
+				</button>
+				<button data-modal class="btns_header">Contact us</button>
+			</div>
+			<div class="right_part-header">
+				<div class="tagline">
+					<p>Pizza la Vuelta.<br> Quickly and Tasty!</p>
+				</div>
+				<a class="logotype_block" href="index.html">
+					<div>
+						<img class="picture_pizza" src="img/header/logotype.png" alt="Pizza">
+					</div>
+				</a>
+			</div>
+		</header>
+		<main class="content">
+			<div class="slider_pizzas">
+				<div>
+					<button data-prev class="btn_swipe">
+						<img src="img/slider/arrow-left.png" alt="prev">
+					</button>
+				</div>
+				<div class="slider">
+					<div class="slider-line">
+						<img class="pizzas_in-slides" src="img/slider/pizza-slider_1.jpg" alt="pizza_1">
+						<img class="pizzas_in-slides" src="img/slider/pizza-slider_2.jpg" alt="pizza_2">
+						<img class="pizzas_in-slides" src="img/slider/pizza-slider_3.jpg" alt="pizza_3">
+						<img class="pizzas_in-slides" src="img/slider/pizza-slider_4.jpg" alt="pizza_4">
+					</div>
+				</div>
+				<div>
+					<button data-next class="btn_swipe">
+						<img src="img/slider/arrow-right.png" alt="next">
+					</button>
+				</div>
+			</div>
+			<div class="line">
+				<span>
+					All pizzas for your taste!!!
+				</span>
+			</div>
+			<div class="offer">
+				<div class="title">
+					<h1>Our offers to you:</h1>
+				</div>
+				<div class="descr">
+					<p>
+						Everyone has their own tastes and preferences,<br> no one argues, but we wanna offer you our pizza
+						options:
+					</p>
+				</div>
+				<div class="options">
+					<ul>
+						<li type="circle">
+							Kids pizza - pizza without any fats.<br> That's rather good for children under 12 y.o.
+						</li>
+						<br>
+						<li type="circle">
+							Vegan pizza - pizza, who doesn't like the taste of meat.<br> We add there mushrooms, vegetables and
+							fruit.
+						</li>
+						<br>
+						<li type="circle">
+							Classical meat pizza - pizza for those people,<br> who likes any meat. The most popular option.
+						</li>
+					</ul>
+				</div>
+				<div style="text-decoration: underline;" class="descr">
+					<p>If you wanna taste our pizzas, check menu on the<br> top of the page, and then add pizzas in your
+						cart.</p>
+				</div>
+			</div>
+			<div class="tabs_pizza">
+				<div class="options_tabs">
+					<div class="tabs-parent">
+						<p class="text__options-tabs text__options_tabs-active">Kids Pizza</p>
+						<p class="text__options-tabs">Vegan Pizza</p>
+						<p class="text__options-tabs">Meat Pizza</p>
+					</div>
+				</div>
+				<img src="img/tabs/kids_pizza_tabs.jpg" alt="pizza_kids" class="pictures_tabs">
+				<img src="img/tabs/vegan_pizza_tabs.jpg" alt="pizza_kids" class="pictures_tabs">
+				<img src="img/tabs/meat_pizza_tabs.jpg" alt="pizza_kids" class="pictures_tabs">
+			</div>
+		</main>
+		<footer class="footer_page">
+			<div class="phone_numbers">
+				<p>You can also contact with us:
+					<br> +1 234 567-89-00
+					<br> 717-231-1115
+					<br>918-447-2010
+				</p>
+			</div>
+			<div>
+				<img class="pizza" src="img/footer/pizza__footer.png" alt="pizza">
+			</div>
+			<div class="social_networks">
+				<p>We are in social networks:
+					<br>
+					<a href="https://vk.com/">VK</a>
+					<br>
+					<a href="https://instagram.com/">Instagram</a>
+				</p>
+			</div>
+		</footer>
+	</div>
+	<div class="modal">
+		<div class="modal_content">
+			<form action="#">
+				<img data-close class="img_close-modal" src="img/close.png" alt="close">
+				<h1 class="modal_title">
+					Enter your data, please!
+				</h1>
+				<input required class="inputs_modal" name="name" placeholder="Enter your name..." type="text">
+				<input required class="inputs_modal" name="phone_number" placeholder="Enter your phone number..."
+					type="tel">
+				<input required type="email" class="inputs_modal" name="email" placeholder="Enter your email...">
+				<button data-send type="submit" class="btn_modal">Send</button>
+			</form>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="menu_content">
+			<img data-close class="img_close" src="img/close.png" alt="close">
+			<div class="line">
+				<span>
+					Sign in please
+				</span>
+			</div>
+			<div class="menu_items">
+				<div data-modal class="item">
+					Contact with us >
+				</div>
+				<a href="pizzas.php" class="item">
+					Check our menu >
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
