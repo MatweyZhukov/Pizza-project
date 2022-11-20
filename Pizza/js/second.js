@@ -64,10 +64,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function openCart() {
 		windowCart.style.left = 30 + 'px';
+		windowCart.style.opacity = 100 + '%';
 	}
 
 	function closeCart() {
 		windowCart.style.left = -570 + 'px';
+		windowCart.style.opacity = 0 + '%';
 	}
 
 	function openMenu() {
