@@ -16,7 +16,7 @@
 	width: 600px;
 	align-items: center;
 	font-weight: bolder;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .picture_pizza {
