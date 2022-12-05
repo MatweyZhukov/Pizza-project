@@ -98,7 +98,7 @@
 				</div>
 			</div>
 		<div class="cart">
-			<img data-close class="img_close" src="img/close.png" alt="close">
+			<button data-close class="img_close"><img src="img/close.png" alt="close"></button>
 			<h1 data-cart-empty style="text-align: center;">Your Cart is empty...</h1>
 			<div data-cart-full class="block-total_price">
 				<p class="text-total_price">Your total price: </p>
@@ -133,7 +133,7 @@
 		<div class="modal">
 		<div class="modal_content">
 			<form action="#">
-				<img data-close class="img_close-modal" src="img/close.png" alt="close">
+				<button data-close class="img_close-modal"><img src="img/close.png" alt="close"></button>
 				<h1 class="modal_title">
 					Enter your data, please!
 				</h1>
@@ -149,19 +149,19 @@
 	</div>
 		<div class="menu">
 			<div class="menu_content">
-			<img data-close class="img_close" src="img/close.png" alt="close">
+			<button data-close class="img_close"><img src="img/close.png" alt="close"></button>
 			<div class="line">
 				<span>
 					Sign in please
 				</span>
 			</div>
 			<div class="menu_items">
-				<div data-modal class="item">
+				<button data-modal class="item">
 					Contact with us >
-				</div>
-				<div data-cart class="item">
+				</button>
+				<button data-cart class="item">
 					Check your cart >
-				</div>
+				</button>
 				<a href="index.html" class="item">
 					Back to main page >
 				</a>
