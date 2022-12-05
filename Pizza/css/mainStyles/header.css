@@ -48,15 +48,12 @@
 	font-size: 20px;
 	font-weight: bold;
 	background-color: #ffb78d;
-	-webkit-transition: 0.3s ease;
-	-moz-transition: 0.3s ease;
-	-o-transition: 0.3s ease;
+	transition: 0.3s all;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	outline: none;
 }
 
 .btns_header:hover {
-	margin: 0% 0% 1% 0%;
+	margin-bottom: 1%;
 	transition: 0.3s all ease-in-out;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 	border-radius: 5px;
@@ -64,14 +61,11 @@
 
 .btn_menu {
 	border: none;
-	outline: none;
 	cursor: pointer;
 	background-color: #ffb78d;
 	border-radius: 10%;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	-webkit-transition: 0.3s ease;
-	-moz-transition: 0.3s ease;
-	-o-transition: 0.3s ease;
+	transition: 0.3s all;
 }
 
 .btn_menu:hover {

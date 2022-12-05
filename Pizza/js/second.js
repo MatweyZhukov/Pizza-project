@@ -156,6 +156,10 @@ window.addEventListener('DOMContentLoaded', () => {
 			clearInputs();
 		}
 
+		if (e.target === menu && menu.style.display === 'block') {
+			closeMenu();
+		}
+
 		if (e.target.hasAttribute('data-add')) {
 
 			const card = e.target.closest('.tiles');

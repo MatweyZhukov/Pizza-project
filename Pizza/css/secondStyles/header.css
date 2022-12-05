@@ -22,7 +22,6 @@
 .picture_pizza {
 	width: 100px;
 	border: none;
-	outline: none;
 }
 
 .logotype_block {
@@ -51,11 +50,8 @@
 	font-size: 20px;
 	font-weight: bold;
 	background-color: #ffb78d;
-	-webkit-transition: 0.3s ease;
-	-moz-transition: 0.3s ease;
-	-o-transition: 0.3s ease;
+	transition: 0.3s all;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	outline: none;
 }
 
 .btns_header:hover {
@@ -67,14 +63,11 @@
 
 .btn_menu {
 	border: none;
-	outline: none;
 	cursor: pointer;
 	background-color: #ffb78d;
 	border-radius: 10%;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	-webkit-transition: 0.3s ease;
-	-moz-transition: 0.3s ease;
-	-o-transition: 0.3s ease;
+	transition: 0.3s all;
 }
 
 .btn_menu:hover {
